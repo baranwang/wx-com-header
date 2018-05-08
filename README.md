@@ -18,10 +18,10 @@
 将 `component` 目录下的文件导入项目中
 
 在使用的页面引入组件
-```json
+```javascript
 {
   "usingComponents": {
-    "header": "../component/header"
+    "header": "../component/header" // 导入的文件路径
   }
 }
 ```

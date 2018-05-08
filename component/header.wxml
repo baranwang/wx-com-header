@@ -1,0 +1,10 @@
+<view class="header {{[isx ? 'isx' : '', isAndroid ? 'android' : '']}}" style="{{fixed ? 'position:fixed' : ''}};background-color:{{backgroundColor}};color:{{color}};">
+  <view class="header-placeholder" />
+  <view class="header-wrap">
+    <button class="back" bind:tap="backFunction" wx:if="{{back}}"></button>
+    <view class="header-title">
+      <slot></slot>
+    </view>
+    <view class="header-right" wx:if="{{back}}" />
+  </view>
+</view>

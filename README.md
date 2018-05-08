@@ -17,13 +17,19 @@
 
 将 `component` 目录下的文件导入项目中
 
-在使用的页面引入组件即可
+在使用的页面引入组件
 ```
 {
   "usingComponents": {
     "header": "../component/header" // 导入的文件路径
   }
 }
+```
+
+页面中使用
+```
+<header background-color="#000" color="#fff" fixed>Title</header>
+
 ```
 
 ---

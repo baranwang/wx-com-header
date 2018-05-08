@@ -15,7 +15,7 @@
 
 ###  如何使用
 
-导入[代码片段](wechatide://minicode/uK6KXgmb6WZT)
+导入[代码片段 wechatide://minicode/uK6KXgmb6WZT](wechatide://minicode/uK6KXgmb6WZT)
 
 将 `component` 目录下的文件导入项目中
 

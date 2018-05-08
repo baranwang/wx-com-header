@@ -15,6 +15,8 @@
 
 ###  如何使用
 
+导入[代码片段](wechatide://minicode/uK6KXgmb6WZT)
+
 将 `component` 目录下的文件导入项目中
 
 在使用的页面引入组件
@@ -40,5 +42,6 @@
 |fixed|导航是否固定，默认为 `false`|
 |background-color|导航背景色，参考 css 颜色写法，默认为 `#fff`|
 |color|导航文字颜色，参考 css 颜色写法，默认为 `#000`|
+|back|显示返回按钮，当传入为数字时，则为 `wx.navigateBack` 的 `delta` 参数|
 
 

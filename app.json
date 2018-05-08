@@ -1,8 +1,8 @@
 {
-  "pages": [
-    "pages/index"
+  "pages":[
+    "index/index"
   ],
-  "window": {
+  "window":{
     "navigationStyle": "custom"
   }
 }
